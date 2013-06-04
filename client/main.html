@@ -3,13 +3,11 @@
 </head>
 <body>
 	<div class="container">
-		<header class="navbar">
-			<div class="navbar-inner">
-				<a href="/" class="brand">Microscope</a>
-			</div>
-		</header>
+		{{>header}}
+		{{>meteorErrors}}
 		<div id="main" class="row-fluid">
-			{{> postsList}}
+			<p> renderPage below</p>
+			{{renderPage}}
 		</div>
 	</div>
 </body>
